@@ -1,0 +1,113 @@
+@media screen and (max-width: 800px){
+    header{
+        .contenedor{
+            position: static;
+            height: auto;
+            .menu{
+                text-align: center;
+                a{
+                    margin: 10px 20px;
+                }
+            }
+            .textos{
+                position: static;
+                margin: 100px 0;
+                .nombre{
+                    font-size: 30px;
+                }
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .main{
+        .acerca-de{
+            .contenedor{
+                .foto{
+                    width: 100%;
+                    position: relative;
+                }
+                article{
+                    position: relative;
+                    width: 100%;
+                    top: -50px;
+                    transform: translate(0px, 0);
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .menu{
+            padding-top: 300px;
+            .contenedor{
+                .contenedor-menu, .contenedor-menu2{
+                    article{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .galeria{
+            .foto{
+                width: 50%;
+            }
+        }
+        .mapa{
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width:400px){
+    .main{
+        .acerca-de{
+            article{
+                h3{
+                    font-size: 34px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .menu{
+            .contenedor{
+                width: 95%;
+                .contenedor-menu, .contenedor-menu2{
+                    article{
+                        .platillo{
+                            .nombre, .precio{
+                                font-size: 16px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .galeria{
+            .foto{
+                width: 100%;
+            }
+        }
+        .ubicacion{
+            .direccion{
+                margin-bottom: 50px;
+                .calle{
+                    margin-bottom: 0;
+                }
+            }
+            .direccion, .horarios{
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .mapa{
+            iframe{
+                width: 100%;
+                border: 0;
+            }
+        }
+    }
+}
